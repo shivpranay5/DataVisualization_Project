@@ -1,0 +1,115 @@
+{
+  "row_count": 30162,
+  "column_count": 14,
+  "income_distribution": {
+    "<=50K": 22654,
+    ">50K": 7508
+  },
+  "numeric_summary": {
+    "age": {
+      "count": 30162.0,
+      "mean": 38.44,
+      "std": 13.13,
+      "min": 17.0,
+      "25%": 28.0,
+      "50%": 37.0,
+      "75%": 47.0,
+      "max": 90.0
+    },
+    "education_num": {
+      "count": 30162.0,
+      "mean": 10.12,
+      "std": 2.55,
+      "min": 1.0,
+      "25%": 9.0,
+      "50%": 10.0,
+      "75%": 13.0,
+      "max": 16.0
+    },
+    "capital_gain": {
+      "count": 30162.0,
+      "mean": 1092.01,
+      "std": 7406.35,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 99999.0
+    },
+    "capital_loss": {
+      "count": 30162.0,
+      "mean": 88.37,
+      "std": 404.3,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 4356.0
+    },
+    "hours_per_week": {
+      "count": 30162.0,
+      "mean": 40.93,
+      "std": 11.98,
+      "min": 1.0,
+      "25%": 40.0,
+      "50%": 40.0,
+      "75%": 45.0,
+      "max": 99.0
+    }
+  },
+  "top_categories": {
+    "workclass": {
+      "Private": 22286,
+      "Self-emp-not-inc": 2499,
+      "Local-gov": 2067,
+      "State-gov": 1279,
+      "Self-emp-inc": 1074,
+      "Federal-gov": 943,
+      "Without-pay": 14
+    },
+    "education": {
+      "HS-grad": 9840,
+      "Some-college": 6678,
+      "Bachelors": 5044,
+      "Masters": 1627,
+      "Assoc-voc": 1307,
+      "11th": 1048,
+      "Assoc-acdm": 1008,
+      "10th": 820,
+      "7th-8th": 557,
+      "Prof-school": 542
+    },
+    "marital_status": {
+      "Married-civ-spouse": 14065,
+      "Never-married": 9726,
+      "Divorced": 4214,
+      "Separated": 939,
+      "Widowed": 827,
+      "Married-spouse-absent": 370,
+      "Married-AF-spouse": 21
+    },
+    "occupation": {
+      "Prof-specialty": 4038,
+      "Craft-repair": 4030,
+      "Exec-managerial": 3992,
+      "Adm-clerical": 3721,
+      "Sales": 3584,
+      "Other-service": 3212,
+      "Machine-op-inspct": 1966,
+      "Transport-moving": 1572,
+      "Handlers-cleaners": 1350,
+      "Farming-fishing": 989
+    },
+    "race": {
+      "White": 25933,
+      "Black": 2817,
+      "Asian-Pac-Islander": 895,
+      "Amer-Indian-Eskimo": 286,
+      "Other": 231
+    },
+    "sex": {
+      "Male": 20380,
+      "Female": 9782
+    }
+  }
+}

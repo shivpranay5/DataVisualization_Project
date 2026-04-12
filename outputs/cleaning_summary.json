@@ -1,0 +1,36 @@
+{
+  "source_file": "/Users/pranay/Desktop/DV_Project/adult.data.txt",
+  "cleaned_file": "/Users/pranay/Desktop/DV_Project/outputs/adult_cleaned.csv",
+  "cleaned_no_missing_file": "/Users/pranay/Desktop/DV_Project/outputs/adult_cleaned_no_missing.csv",
+  "rows_processed": 32561,
+  "columns_kept": [
+    "age",
+    "workclass",
+    "education",
+    "education_num",
+    "marital_status",
+    "occupation",
+    "relationship",
+    "race",
+    "sex",
+    "capital_gain",
+    "capital_loss",
+    "hours_per_week",
+    "native_country",
+    "income"
+  ],
+  "dropped_columns": [
+    "fnlwgt"
+  ],
+  "rows_with_missing_values": 2399,
+  "rows_without_missing_values": 30162,
+  "missing_by_column": {
+    "native_country": 583,
+    "occupation": 1843,
+    "workclass": 1836
+  },
+  "income_distribution": {
+    "<=50K": 24720,
+    ">50K": 7841
+  }
+}
